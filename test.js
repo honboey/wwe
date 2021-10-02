@@ -1,7 +1,55 @@
 wweChampions = require("./data/wweChampions.js").wweChampions
 wrestlerStats = require("./data/wrestlerHeightAndWeight.js").wrestlerHeightAndWeight
 
-// console.log(wrestlerStats)
+// ===================
+// Cleaning the data
+// ===================
+
+/*
+Object Array -> Array
+Check any undefined values
+
+check-expect    undefinedValues([{ name: "John Cena"}, {name: "Hon Boey"}], 
+                                [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
+                                 { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
+                                 { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
+                                 { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
+                ->  { name: "Hon Boey" }                  
+*/
+
+function undefinedValues(array1, array2) {
+    array1.map((element) => {
+        if (exist(element.name, array2)) {
+            null
+        } else {
+            console.log(element.name)
+        }
+    })    
+}
+
+// undefinedValues(wweChampions, wrestlerStats)
+
+/*
+String Array -> Boolean
+Does this string exist in the array?
+check-expect    exist("Hon Boey", [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
+                                   { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
+                                   { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
+                                   { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
+                -> false
+*/
+
+function exist(string, array) {
+    if ((array.filter(element => element.name === string).length === 0)) {
+        return false
+    } else {
+        return true
+    }
+}
+
+// ======================
+// Getting the data
+// ======================
 
 /* 
 Array Array -> Array
@@ -39,14 +87,14 @@ check-expect    [{ name: "John Cena" },
             
 */
 
-function wweChampionsStatsArray(array1, array2) {
+function wweChampionsStats(array1, array2) {
     return array1.map((element) => {
         return pullOutWrestlerStat(element.name, array2)
     })
 }
 
-result = wweChampionsStatsArray(wweChampions, wrestlerStats)
-console.log(result)
+const wweChampionsStatsResults = wweChampionsStats(wweChampions, wrestlerStats)
+console.log(wweChampionsStatsResults)
 
 /*
 String Array -> object
