@@ -6,15 +6,15 @@ wrestlerStats = require("./data/wrestlerHeightAndWeight.js").wrestlerHeightAndWe
 // ===================
 
 /*
-Object Array -> Array
-Check any undefined values
+Array Array -> console.log
+Console log any WWE Champion's name that doesn't match / occur in wrestlerStats
 
 check-expect    undefinedValues([{ name: "John Cena"}, {name: "Hon Boey"}], 
                                 [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
                                  { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
                                  { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
                                  { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
-                ->  { name: "Hon Boey" }                  
+                -> { name: "Hon Boey" }                  
 */
 
 function undefinedValues(array1, array2) {
@@ -31,7 +31,8 @@ function undefinedValues(array1, array2) {
 
 /*
 String Array -> Boolean
-Does this string exist in the array?
+If the wrestler name is in the the wrestlerStats array then produce true. Otherwise produce false.
+
 check-expect    exist("Hon Boey", [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
                                    { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
                                    { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
@@ -53,33 +54,33 @@ function exist(string, array) {
 
 /* 
 Array Array -> Array
-Find the values of an array in a corresponding array
+Go through each element in an array and pull out the corresponding object in another array
 
-check-expect    [{ name: "John Cena" }],
-                [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
-                 { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
-                 { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
-                 { name :"John Cena","height":"6’1″","weight":"251 lbs." }]
+check-expect    wweChampionsStats([{ name: "John Cena" }],
+                                  [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
+                                   { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
+                                   { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
+                                   { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
                 
                 -> [{ name :"John Cena","height":"6’1″","weight":"251 lbs." }]
 
-check-expect    [{ name: "John Cena" }, 
-                 { name: "2 Cold Scorpio" }],
-                [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
-                 { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
-                 { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
-                 { name :"John Cena","height":"6’1″","weight":"251 lbs." }]
+check-expect    wweChampionsStats([{ name: "John Cena" }, 
+                                    { name: "2 Cold Scorpio" }],
+                                  [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
+                                   { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
+                                   { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
+                                   { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
                 
                 -> [{ name :"John Cena","height":"6’1″","weight":"251 lbs." },
                     { name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }]
 
-check-expect    [{ name: "John Cena" }, 
-                 { name: "2 Cold Scorpio" }, 
-                 { name:"John Cena" }],
-                [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
-                 { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
-                 { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
-                 { name :"John Cena","height":"6’1″","weight":"251 lbs." }]
+check-expect    wweChampionsStats([{ name: "John Cena" }, 
+                                   { name: "2 Cold Scorpio" }, 
+                                   { name:"John Cena" }],
+                                  [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
+                                   { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
+                                   { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
+                                   { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
                 
                 -> [{ name :"John Cena","height":"6’1″","weight":"251 lbs." },
                     { name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." },
