@@ -8,7 +8,6 @@ wrestlerStats = require("./data/wrestlerHeightAndWeight.js").wrestlerHeightAndWe
 /*
 Array Array -> console.log
 Console log any WWE Champion's name that doesn't match / occur in wrestlerStats
-
 check-expect    undefinedValues([{ name: "John Cena"}, {name: "Hon Boey"}], 
                                 [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
                                  { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
@@ -32,7 +31,6 @@ function undefinedValues(array1, array2) {
 /*
 String Array -> Boolean
 If the wrestler name is in the the wrestlerStats array then produce true. Otherwise produce false.
-
 check-expect    exist("Hon Boey", [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
                                    { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
                                    { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
@@ -47,6 +45,28 @@ function exist(string, array) {
         return true
     }
 }
+
+// Array -> Number
+// Change height value to inches
+// check-expect convertToInches([5,10]) -> (5*12 + 10)
+// check-expect convertToInches([5,0])  -> (5*12 + 0)
+function convertToInches(array) {
+    return array[0] * 12 + array[1]
+}
+
+// Array -> Array
+// Convert all height values in an array to inches
+/*
+check-expect    heightInInches([{ name :"2 Cold Scorpio",height:[5,11],weight:229 }, 
+                                { name :"Abbey Laith",height:[5,4],weight:125 }])
+                -> [{ name :"2 Cold Scorpio",height:71,weight:229 }, 
+                    { name :"Abbey Laith",height:64,weight:125 }]
+*/
+function heightInInches(array) {
+    return array.map(element => ({ ...element, height: convertToInches(element.height) }));
+}
+wrestlerStats = heightInInches(wrestlerStats)
+
 
 // ======================
 // Getting the data
