@@ -1,9 +1,9 @@
 wweChampions = require("./data/wweChampions.js").wweChampions
 wrestlerStats = require("./data/wrestlerHeightAndWeight.js").wrestlerHeightAndWeight
 
-// ===================
+// =======================
 // Cleaning the data
-// ===================
+// =======================
 
 /*
 Array Array -> console.log
@@ -54,6 +54,8 @@ function convertToInches(array) {
     return array[0] * 12 + array[1]
 }
 
+// =======================
+
 // Array -> Array
 // Convert all height values in an array to inches
 /*
@@ -68,9 +70,9 @@ function heightInInches(array) {
 wrestlerStats = heightInInches(wrestlerStats)
 
 
-// ======================
-// Getting the data
-// ======================
+// =======================
+// Creating the list
+// =======================
 
 /* 
 Array Array -> Array
@@ -108,14 +110,14 @@ check-expect    wweChampionsStats([{ name: "John Cena" },
             
 */
 
-function wweChampionsStats(array1, array2) {
+function pullOutWweChampionsStats(array1, array2) {
     return array1.map((element) => {
         return pullOutWrestlerStat(element.name, array2)
     })
 }
 
-const wweChampionsStatsResults = wweChampionsStats(wweChampions, wrestlerStats)
-console.log(wweChampionsStatsResults)
+const wweChampionsStats = pullOutWweChampionsStats(wweChampions, wrestlerStats)
+console.log(wweChampionsStats)
 
 /*
 String Array -> object
@@ -126,6 +128,6 @@ function pullOutWrestlerStat(wrestler, array) {
     return array.find(element => element.name === wrestler )
 }
 
-
-
-
+// =======================
+// Drawing out the info
+// =======================
