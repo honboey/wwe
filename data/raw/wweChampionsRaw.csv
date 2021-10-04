@@ -1,159 +1,173 @@
-name
-Buddy Rogers
-Bruno Sammartino
-Ivan Koloff
-Pedro Morales
-Stan Stasiak
-Bruno Sammartino
-Superstar Billy Graham
-Bob Backlund
-Antonio Inoki
-Vacated
-Bob Backlund
-The Iron Sheik
-Hulk Hogan
-André the Giant
-Ted DiBiase
-Vacated
-Randy Savage
-Hulk Hogan
-The Ultimate Warrior
-Sgt. Slaughter
-Hulk Hogan
-The Undertaker
-Hulk Hogan
-Vacated
-Ric Flair
-Randy Savage
-Ric Flair
-Bret Hart
-Yokozuna
-Hulk Hogan
-Yokozuna
-Bret Hart
-Bob Backlund
-Diesel
-Bret Hart
-Shawn Michaels
-Sycho Sid
-Shawn Michaels
-Vacated
-Bret Hart
-Sycho Sid
-The Undertaker
-Bret Hart
-Shawn Michaels
-Stone Cold Steve Austin
-Kane
-Stone Cold Steve Austin
-Vacated
-The Rock
-Mankind
-The Rock
-Mankind
-The Rock
-Stone Cold Steve Austin
-The Undertaker
-Stone Cold Steve Austin
-Mankind
-Triple H
-Vince McMahon
-Vacated
-Triple H
-Big Show
-Triple H
-The Rock
-Triple H
-The Rock
-Kurt Angle
-The Rock
-Stone Cold Steve Austin
-Kurt Angle
-Stone Cold Steve Austin
-Chris Jericho
-Triple H
-Hollywood Hulk Hogan
-The Undertaker
-The Rock
-Brock Lesnar
-Big Show
-Kurt Angle
-Brock Lesnar
-Kurt Angle
-Brock Lesnar
-Eddie Guerrero
-"John ""Bradshaw"" Layfield"
-John Cena
-Edge
-John Cena
-Rob Van Dam
-Edge
-John Cena
-Vacated
-Randy Orton
-Triple H
-Randy Orton
-Triple H
-Edge
-Jeff Hardy
-Edge
-Triple H
-Randy Orton
-Batista
-Vacated
-Randy Orton
-John Cena
-Randy Orton
-John Cena
-Sheamus
-John Cena
-Batista
-John Cena
-Sheamus
-Randy Orton
-The Miz
-John Cena
-CM Punk
-Vacated
-Rey Mysterio
-John Cena
-CM Punk
-Alberto Del Rio
-John Cena
-Alberto Del Rio
-CM Punk
-The Rock
-John Cena
-Daniel Bryan
-Randy Orton
-Daniel Bryan
-Vacated
-Randy Orton
-Daniel Bryan
-Vacated
-John Cena
-Brock Lesnar
-Seth Rollins
-Vacated
-Roman Reigns
-Sheamus
-Roman Reigns
-Triple H
-Roman Reigns
-Seth Rollins
-Dean Ambrose
-AJ Styles
-John Cena
-Bray Wyatt
-Randy Orton
-Jinder Mahal
-AJ Styles
-Daniel Bryan
-Kofi Kingston
-Brock Lesnar
-Drew McIntyre
-Randy Orton
-Drew McIntyre
-The Miz
-Bobby Lashley
-Big E
+number,name,date,event,location,reign,days,days recognised,notes
+1,Buddy Rogers,"April 11, 1963",House show,"Washington, D.C.",1,36,22,"Won a fictional tournament in Rio de Janeiro after the WWWF left the National Wrestling Alliance (NWA), of which Rogers had been the 7th NWA World Heavyweight Champion since defeating Pat O'Connor on June 30, 1961. After Rogers' one fall loss to Lou Thesz for the title on January 24, 1963, Northeast promoters (led by Vince McMahon Sr. and Toots Mondt) did not recognize this title change and withdrew their membership from the NWA to form the World Wide Wrestling Federation (WWWF). The WWWF billed Rogers as their world champion since January 25, 1963, but it did not recognize him as the first ever WWWF World Heavyweight Champion until April 11, 1963, when he received the title belt. However, WWE lists Rogers' reign and the establishment of the title beginning on April 25, 1963."
+2,Bruno Sammartino,"May 17, 1963",House show,"New York, NY",1,"2,803","2,803",
+3,Ivan Koloff,"January 18, 1971",House show,"New York, NY",1,21,21,
+4,Pedro Morales,"February 8, 1971",House show,"New York, NY",1,"1,027","1,027",The title was renamed the WWWF Heavyweight Championship when the WWWF rejoined the NWA in 1971.
+5,Stan Stasiak,"December 1, 1973",House show,"Philadelphia, PA",1,9,9,
+6,Bruno Sammartino,"December 10, 1973",House show,"New York, NY",2,"1,237","1,237",
+7,Superstar Billy Graham,"April 30, 1977",House show,"Baltimore, MD",1,296,296,
+8,Bob Backlund,"February 20, 1978",WWF on MSG Network,"New York, NY",1,648,"2,135",The title was renamed the WWF Heavyweight Championship when the WWWF became the World Wrestling Federation (WWF) in March 1979 for marketing purposes.
+†,Antonio Inoki,"November 30, 1979",Toukon Series,"Tokushima, Japan",—,6,—,
+—,Vacated,"December 6, 1979",—,"Tokyo, Japan",—,—,—,Inoki immediately vacated the title after a title defense rematch with Bob Backlund ended in a no contest due to the interference of New Japan Pro-Wrestling's Tiger Jeet Singh.
+†,Bob Backlund,"December 17, 1979",WWF on MSG Network,"New York, NY",1,"1,470",—,"Defeated Bobby Duncum in a Texas death match to fill the vacancy. On October 19, 1981, following a controversial match with Greg Valentine in Madison Square Garden, the title was vacated (recognized only in New York City) by the NY State Athletic Commission. Backlund defeated Valentine in a rematch in MSG on November 23, 1981 to end the vacancy. WWE recognizes this whole period as one uninterrupted reign."
+9,The Iron Sheik,"December 26, 1983",WWF on MSG Network,"New York, NY",1,28,28,The Iron Sheik won by submission when Bob Backlund's manager Arnold Skaaland threw in the towel when Backlund was put into Sheik's camel clutch to prevent any major injury. The title was renamed the WWF World Heavyweight Championship when the WWF ended its affiliation with the NWA.
+10,Hulk Hogan,"January 23, 1984",WWF on MSG Network,"New York, NY",1,"1,474","1,474",
+11,André the Giant,"February 5, 1988",The Main Event I,"Indianapolis, IN",1,<1,<1,"Defeated Hulk Hogan when referee Earl Hebner, who was bribed by Ted DiBiase, scored the three-count despite Hogan raising his shoulder at the one-count."
+†,Ted DiBiase,"February 5, 1988",The Main Event I,"Indianapolis, IN",1,8,—,"Immediately after winning the title from Hulk Hogan, André the Giant handed the championship belt to Ted DiBiase, but WWF President Jack Tunney ruled this as vacating the title and therefore DiBiase's reign is not recognized by WWE, albeit he was announced as such in the following days and even defended the title once against Bam Bam Bigelow in a February 8, 1988 live event."
+—,Vacated,"February 13, 1988",Superstars of Wrestling,"Hershey, PA",—,—,—,"WWF President Jack Tunney refused to recognize Ted DiBiase as champion and vacated the title. WWE recognizes the vacancy as starting on February 5, 1988, the date of the controversy, rather than the date in which the announcement was made in a video aired on tape delay on February 13, 1988."
+12,Randy Savage,"March 27, 1988",WrestleMania IV,"Atlantic City, NJ",1,371,371,Defeated Ted DiBiase in a tournament final to win the vacant title.
+13,Hulk Hogan,"April 2, 1989",WrestleMania V,"Atlantic City, NJ",2,364,364,The title was renamed the WWF Championship in July 1989.
+14,The Ultimate Warrior,"April 1, 1990",WrestleMania VI,"Toronto, ON, Canada",1,293,293,This was a title vs. title match in which Warrior also defended the Intercontinental Championship.
+15,Sgt. Slaughter,"January 19, 1991",Royal Rumble,"Miami, FL",1,64,64,
+16,Hulk Hogan,"March 24, 1991",WrestleMania VII,"Los Angeles, CA",3,248,248,
+17,The Undertaker,"November 27, 1991",Survivor Series,"Detroit, MI",1,6,6,
+18,Hulk Hogan,"December 3, 1991",This Tuesday in Texas,"San Antonio, TX",4,1,4,
+—,Vacated,"December 4, 1991",Superstars of Wrestling,"New Haven, CT",—,—,—,"Hogan was stripped of the title by WWF President Jack Tunney due to the controversy surrounding both of the previous title changes. Aired on tape delay on December 7, 1991."
+19,Ric Flair,"January 19, 1992",Royal Rumble,"Albany, NY",1,77,77,This was the Royal Rumble match in which Flair last eliminated Sid Justice to win the vacant title.
+20,Randy Savage,"April 5, 1992",WrestleMania VIII,"Indianapolis, IN",2,149,149,
+21,Ric Flair,"September 1, 1992",Prime Time Wrestling,"Hershey, PA",2,41,41,"Aired on tape delay on September 14, 1992. [48][49]"
+22,Bret Hart,"October 12, 1992",House show,"Saskatoon, SK, Canada",1,174,174,
+23,Yokozuna,"April 4, 1993",WrestleMania IX,"Las Vegas, NV",1,<1,<1,
+24,Hulk Hogan,"April 4, 1993",WrestleMania IX,"Las Vegas, NV",5,70,70,"After Yokozuna pinned Bret Hart to win the title, Yokozuna's manager, Mr. Fuji, issued an immediate challenge to Hogan for the championship, which was accepted and Hogan won the impromptu match."
+25,Yokozuna,"June 13, 1993",King of the Ring,"Dayton, OH",2,280,280,
+26,Bret Hart,"March 20, 1994",WrestleMania X,"New York, NY",2,248,248,Roddy Piper was the guest referee.
+27,Bob Backlund,"November 23, 1994",Survivor Series,"San Antonio, TX",2,3,3,This was a Throw in the Towel submission match.
+28,Diesel,"November 26, 1994",House show,"New York, NY",1,358,358,
+29,Bret Hart,"November 19, 1995",Survivor Series,"Landover, MD",3,133,133,This was a no disqualification match.
+30,Shawn Michaels,"March 31, 1996",WrestleMania XII,"Anaheim, CA",1,231,231,This was a 60-minute Iron Man match in which Michaels won 1–0 in overtime.
+31,Sycho Sid,"November 17, 1996",Survivor Series,"New York, NY",1,63,63,
+32,Shawn Michaels,"January 19, 1997",Royal Rumble,"San Antonio, TX",2,25,25,
+—,Vacated,"February 13, 1997",Raw,"Lowell, MA",—,—,—,Shawn Michaels forfeited the title due to a knee injury.
+33,Bret Hart,"February 16, 1997",In Your House 13: Final Four,"Chattanooga, TN",4,1,1,"This was a four-way elimination match for the vacant title also involving Stone Cold Steve Austin, The Undertaker, and Vader."
+34,Sycho Sid,"February 17, 1997",Raw,"Nashville, TN",2,34,34,
+35,The Undertaker,"March 23, 1997",WrestleMania 13,"Rosemont, IL",2,133,133,This was a no disqualification match.
+36,Bret Hart,"August 3, 1997",SummerSlam,"East Rutherford, NJ",5,98,98,Shawn Michaels was the guest referee.
+37,Shawn Michaels,"November 9, 1997",Survivor Series,"Montreal, QC, Canada",3,140,140,This was the Montreal Screwjob.
+38,Stone Cold Steve Austin,"March 29, 1998",WrestleMania XIV,"Boston, MA",1,91,91,Mike Tyson was the special outside enforcer.
+39,Kane,"June 28, 1998",King of the Ring,"Pittsburgh, PA",1,1,1,"This was a First Blood match; had Kane lost, he would have set himself on fire."
+40,Stone Cold Steve Austin,"June 29, 1998",Raw,"Cleveland, OH",2,90,90,
+—,Vacated,"September 27, 1998",Breakdown: In Your House,"Hamilton, ON, Canada",—,—,—,The title was vacated after Kane and The Undertaker simultaneously pinned Stone Cold Steve Austin in a triple threat match.[70]
+41,The Rock,"November 15, 1998",Survivor Series,"St. Louis, MO",1,44,50,"Defeated Mankind in the finals of the Deadly Game tournament in a recreation of the Montreal Screwjob to win the vacant title. WWE recognizes The Rock's reign as ending on January 4, 1999, when the following episode aired on tape delay."
+42,Mankind,"December 29, 1998",Raw,"Worcester, MA",1,26,20,"This was a no disqualification match. WWE recognizes Mankind's reign as beginning on January 4, 1999, when the episode aired on tape delay."
+43,The Rock,"January 24, 1999",Royal Rumble,"Anaheim, CA",2,2,7,"This was an ""I quit"" match which The Rock won by knocking Mankind unconscious while someone backstage, later revealed to be Shane McMahon, played an audio recording of Mankind saying ""I quit"" when The Rock placed the microphone against his face. WWE recognizes The Rock's reign as ending on January 31, 1999, when the following match aired on tape delay."
+44,Mankind,"January 26, 1999",Halftime Heat,"Tucson, AZ",2,20,15,"This was an Empty Arena match that aired on tape delay as a special during halftime of Super Bowl XXXIII on January 31, 1999, the date WWE recognizes as the beginning of Mankind's reign."
+45,The Rock,"February 15, 1999",Raw,"Birmingham, AL",3,41,41,This was a ladder match.
+46,Stone Cold Steve Austin,"March 28, 1999",WrestleMania XV,"Philadelphia, PA",3,56,56,This was a no disqualification match with Mankind as the guest referee.
+47,The Undertaker,"May 23, 1999",Over the Edge,"Kansas City, MO",3,36,36,Both Vince McMahon and Shane McMahon were the guest referees.
+48,Stone Cold Steve Austin,"June 28, 1999",Raw,"Charlotte, NC",4,55,55,"If The Undertaker had gotten himself disqualified, he would have lost the championship."
+49,Mankind,"August 22, 1999",SummerSlam,"Minneapolis, MN",3,1,1,This was a triple threat match also involving Triple H. Jesse Ventura was the guest referee.
+50,Triple H,"August 23, 1999",Raw,"Ames, IA",1,22,24,"Shane McMahon was the guest referee. WWE recognizes Triple H's reign as ending on September 16, 1999, when the following episode aired on tape delay."
+51,Vince McMahon,"September 14, 1999",SmackDown!,"Las Vegas, NV",1,6,4,"Shane McMahon was the guest referee. WWE recognizes Vince McMahon's reign as beginning on September 16, 1999, when the episode aired on tape delay."
+—,Vacated,"September 20, 1999",Raw,"Houston, TX",—,—,—,"Mr. McMahon vacated the title due to the Fully Loaded stipulation after losing his feud with Stone Cold Steve Austin, who defeated The Undertaker at the event and forced McMahon to no longer appear on WWF television."
+52,Triple H,"September 26, 1999",Unforgiven,"Charlotte, NC",2,49,49,"This was a six-pack challenge for the vacant title, also involving Big Show, The British Bulldog, Kane, Mankind, and The Rock. Stone Cold Steve Austin was the special outside enforcer."
+53,Big Show,"November 14, 1999",Survivor Series,"Detroit, MI",1,50,50,"This was a triple threat match also involving The Rock. Stone Cold Steve Austin had originally been scheduled to take part in the match, but he did not participate after being (in storyline) run over by a car in the parking garage earlier in the night."
+54,Triple H,"January 3, 2000",Raw,"Miami, FL",3,118,118,
+55,The Rock,"April 30, 2000",Backlash,"Washington, D.C.",4,21,21,Shane McMahon was the guest referee.
+56,Triple H,"May 21, 2000",Judgment Day,"Louisville, KY",4,35,35,This was a 60-minute Iron Man match which Triple H won 6–5 with Shawn Michaels as the guest referee.
+57,The Rock,"June 25, 2000",King of the Ring,"Boston, MA",5,119,119,"This was a six-man tag team match with Kane, The Rock, and The Undertaker vs. Triple H, Shane McMahon, and Vince McMahon. The Rock pinned Vince to win Triple H's title."
+58,Kurt Angle,"October 22, 2000",No Mercy,"Albany, NY",1,126,126,This was a no disqualification match.
+59,The Rock,"February 25, 2001",No Way Out,"Las Vegas, NV",6,35,35,"After the WWF purchased World Championship Wrestling (WCW) in March 2001, the WCW Championship became a second concurrently active world championship in the WWF. By November 2001, the WCW title was renamed to World Championship."
+60,Stone Cold Steve Austin,"April 1, 2001",WrestleMania X-Seven,"Houston, TX",5,175,175,This was a no disqualification match.
+61,Kurt Angle,"September 23, 2001",Unforgiven,"Pittsburgh, PA",2,15,15,
+62,Stone Cold Steve Austin,"October 8, 2001",Raw,"Indianapolis, IN",6,62,62,
+63,Chris Jericho,"December 9, 2001",Vengeance,"San Diego, CA",1,98,98,"Earlier the same night, Jericho defeated World Champion The Rock for that title. By defeating Stone Cold Steve Austin for the WWF Championship, Jericho unified both titles to become the first-ever undisputed WWF world champion. The World Championship was retired while the WWF Championship became known as the Undisputed WWF Championship."
+64,Triple H,"March 17, 2002",WrestleMania X8,"Toronto, ON, Canada",5,35,35,"In late March 2002, due to the WWF's roster having doubled in size, the brand extension began, splitting the roster between the Raw and SmackDown brands, represented by the TV shows of the same name. Championships were assigned to be exclusive to a specific brand, with the exception of the Undisputed WWF Championship and the WWF Women's Championship, which were non-exclusive at this time."
+65,Hollywood Hulk Hogan,"April 21, 2002",Backlash,"Kansas City, MO",6,28,28,"After the WWF was renamed World Wrestling Entertainment (WWE) due to a lawsuit by the World Wide Fund for Nature on May 6, 2002, the title was also renamed Undisputed WWE Championship and then WWE Undisputed Championship."
+66,The Undertaker,"May 19, 2002",Judgment Day,"Nashville, TN",4,63,63,
+67,The Rock,"July 21, 2002",Vengeance,"Detroit, MI",7,35,35,This was a triple threat match also involving Kurt Angle.
+68,Brock Lesnar,"August 25, 2002",SummerSlam,"Uniondale, NY",1,84,84,"The following night, Lesnar signed a deal to appear exclusively on the SmackDown brand, making the championship exclusive to the brand. The World Heavyweight Championship was then created for the Raw brand and awarded to Triple H, who was Lesnar's number one contender. On September 2, 2002, the WWE Undisputed Championship became the WWE Championship as it was no longer ""undisputed""."
+69,Big Show,"November 17, 2002",Survivor Series,"New York, NY",2,28,28,
+70,Kurt Angle,"December 15, 2002",Armageddon,"Sunrise, FL",3,105,105,
+71,Brock Lesnar,"March 30, 2003",WrestleMania XIX,"Seattle, WA",2,119,119,
+72,Kurt Angle,"July 27, 2003",Vengeance,"Denver, CO",4,51,53,"This was a triple threat match also involving Big Show. WWE recognizes Angle's reign as ending on September 18, 2003, when the following episode aired on tape delay."
+73,Brock Lesnar,"September 16, 2003",SmackDown!,"Raleigh, NC",3,152,150,"This was a 60-minute Iron Man match. WWE recognizes Lesnar's reign as beginning on September 18, 2003, when the episode aired on tape delay."
+74,Eddie Guerrero,"February 15, 2004",No Way Out,"Daly City, CA",1,133,133,
+75,"John ""Bradshaw"" Layfield","June 27, 2004",The Great American Bash,"Norfolk, VA",1,280,280,This was a Texas bullrope match.
+76,John Cena,"April 3, 2005",WrestleMania 21,"Los Angeles, CA",1,280,280,The title became exclusive to the Raw brand following the 2005 WWE Draft Lottery.
+77,Edge,"January 8, 2006",New Year's Revolution,"Albany, NY",1,21,21,Cashed in his Money in the Bank contract.
+78,John Cena,"January 29, 2006",Royal Rumble,"Miami, FL",2,133,133,
+79,Rob Van Dam,"June 11, 2006",ECW One Night Stand,"New York, NY",1,22,22,"Cashed in his Money in the Bank contract. This was an Extreme Rules match.
+ The title became property of the new ECW brand due to Van Dam's status as an ECW wrestler. The ECW World Heavyweight Championship was subsequently reactivated for the brand and awarded to Van Dam, who became the only wrestler to ever hold both titles at the same time. The ECW Championship became a third concurrently active world championship in WWE."
+80,Edge,"July 3, 2006",Raw,"Philadelphia, PA",2,76,76,"This was a triple threat match also involving John Cena.
+The title became exclusive to the Raw brand due to Edge's status as a Raw wrestler."
+81,John Cena,"September 17, 2006",Unforgiven,"Toronto, ON, Canada",3,380,380,"This was a Tables, Ladders and Chairs match.
+Had Cena lost, he would have had to leave the Raw brand."
+82,Randy Orton,"October 7, 2007",No Mercy,"Rosemont, IL",1,<1,<1,"Orton was originally scheduled to have a Last Man Standing match against John Cena for the title, but due to Cena vacating the title due to a legit injury, Mr. McMahon awarded it to Orton at the start of the event, and was immediately challenged by Triple H."
+83,Triple H,"October 7, 2007",No Mercy,"Rosemont, IL",6,<1,<1,"After winning the championship, Mr. McMahon would tell Triple H he was previously booked for a match against Umaga, and he would face him the same night, now for the WWE Championship. After defeating Umaga, Mr. McMahon stated that Randy Orton was invoking his rematch clause and scheduled a rematch for the same night."
+84,Randy Orton,"October 7, 2007",No Mercy,"Rosemont, IL",2,203,203,This was a Last Man Standing match.
+85,Triple H,"April 27, 2008",Backlash,"Baltimore, MD",7,210,210,"This was a fatal four-way elimination match also involving John Cena and John ""Bradshaw"" Layfield.
+The title became exclusive to the SmackDown brand following the 2008 WWE Draft."
+86,Edge,"November 23, 2008",Survivor Series,"Boston, MA",3,21,21,"This was a triple threat match also involving Vladimir Kozlov. Jeff Hardy had originally been scheduled to take part in the match, but he did not participate after being (in storyline) attacked prior to the event. Triple H and Kozlov started the match before Edge was revealed as Hardy's surprise replacement."
+87,Jeff Hardy,"December 14, 2008",Armageddon,"Buffalo, NY",1,42,42,This was a triple threat match also involving Triple H.
+88,Edge,"January 25, 2009",Royal Rumble,"Detroit, MI",4,21,21,This was a no disqualification match.
+89,Triple H,"February 15, 2009",No Way Out,"Seattle, WA",8,70,70,"This was an Elimination Chamber match also involving Big Show, Jeff Hardy, The Undertaker, and Vladimir Kozlov. The title became exclusive to the Raw brand following the 2009 WWE Draft."
+90,Randy Orton,"April 26, 2009",Backlash,"Providence, RI",3,42,42,"This was a six-man tag team match with The Legacy (Randy Orton, Cody Rhodes, and Ted DiBiase) against Batista, Triple H, and Shane McMahon. Orton pinned Triple H to win the title."
+91,Batista,"June 7, 2009",Extreme Rules,"New Orleans, LA",1,2,2,This was a steel cage match.
+—,Vacated,"June 9, 2009",—,—,—,—,—,The title was vacated when Batista suffered a torn left biceps.
+92,Randy Orton,"June 15, 2009",Raw,"Charlotte, NC",4,90,90,"This was a fatal four-way match for the vacant title also involving Big Show, John Cena, and Triple H."
+93,John Cena,"September 13, 2009",Breaking Point,"Montreal, QC, Canada",4,21,21,"This was an ""I quit"" match.
+Had anyone interfered on Randy Orton's behalf, he would have forfeited the title."
+94,Randy Orton,"October 4, 2009",Hell in a Cell,"Newark, NJ",5,21,21,This was a Hell in a Cell match.
+95,John Cena,"October 25, 2009",Bragging Rights,"Pittsburgh, PA",5,49,49,"This was a 60-minute Anything Goes Iron Man match in which Cena won 6-5.
+Had Cena lost, he would have had to leave the Raw brand."
+96,Sheamus,"December 13, 2009","TLC: Tables, Ladders & Chairs","San Antonio, TX",1,70,70,This was a tables match.
+97,John Cena,"February 21, 2010",Elimination Chamber,"St. Louis, MO",6,<1,<1,"This was an Elimination Chamber match also involving Kofi Kingston, Randy Orton, Ted DiBiase Jr., and Triple H."
+98,Batista,"February 21, 2010",Elimination Chamber,"St. Louis, MO",2,35,35,Batista transferred to the Raw roster after winning the title.
+99,John Cena,"March 28, 2010",WrestleMania XXVI,"Glendale, AZ",7,84,84,
+100,Sheamus,"June 20, 2010",Fatal 4-Way,"Uniondale, NY",2,91,91,This was a fatal four-way match also involving Edge and Randy Orton.
+101,Randy Orton,"September 19, 2010",Night of Champions,"Rosemont, IL",6,64,64,"This was a six-pack elimination challenge also involving Chris Jericho, Edge, John Cena, and Wade Barrett, who decided to cash-in his title shot due to winning the first season of NXT."
+102,The Miz,"November 22, 2010",Raw,"Orlando, FL",1,160,160,"Cashed in his Money in the Bank contract. In April 2011, WWE ceased using its full name with the ""WWE"" abbreviation becoming an orphaned initialism."
+103,John Cena,"May 1, 2011",Extreme Rules,"Tampa, FL",8,77,77,This was a triple threat steel cage match also involving John Morrison.
+104,CM Punk,"July 17, 2011",Money in the Bank,"Rosemont, IL",1,28,28,"Punk (kayfabe) left WWE the day after with the championship, but he returned on the July 25, 2011 episode of Raw and his reign was deemed to continue through this period."
+—,Vacated,"July 18, 2011",Raw,"Green Bay, WI",—,—,—,"The title was vacated due to CM Punk leaving WWE.
+This vacancy is no longer recognized due to Punk's return on the July 25, 2011 episode of Raw."
+105,Rey Mysterio,"July 25, 2011",Raw,"Hampton, VA",1,<1,<1,"Defeated The Miz in a tournament final to crown a new champion.
+CM Punk was also recognized as WWE Champion."
+106,John Cena,"July 25, 2011",Raw,"Hampton, VA",9,20,20,"As the former champion prior to CM Punk, Cena was granted a title match against Rey Mysterio by Triple H. Punk was also recognized as WWE Champion."
+†,CM Punk,"August 14, 2011",SummerSlam,"Los Angeles, CA",1,—,—,Punk defeated John Cena in a match to determine the undisputed champion. Triple H was the guest referee. This is considered a continuation of Punk's first reign.
+107,Alberto Del Rio,"August 14, 2011",SummerSlam,"Los Angeles, CA",1,35,35,"Cashed in his Money in the Bank contract after CM Punk defeated John Cena to determine the undisputed champion.
+On August 29, 2011, the first brand extension ended, allowing the WWE Champion to appear on both Raw and SmackDown."
+108,John Cena,"September 18, 2011",Night of Champions,"Buffalo, NY",10,14,14,
+109,Alberto Del Rio,"October 2, 2011",Hell in a Cell,"New Orleans, LA",2,49,49,This was a triple threat Hell in a Cell match also involving CM Punk.
+110,CM Punk,"November 20, 2011",Survivor Series,"New York, NY",2,434,434,
+111,The Rock,"January 27, 2013",Royal Rumble,"Phoenix, AZ",8,70,70,"CM Punk had initially won, but the match was restarted by Vince McMahon due to interference by The Shield (Dean Ambrose, Roman Reigns, and Seth Rollins)."
+112,John Cena,"April 7, 2013",WrestleMania 29,"East Rutherford, NJ",11,133,133,
+113,Daniel Bryan,"August 18, 2013",SummerSlam,"Los Angeles, CA",1,<1,<1,Triple H was the guest referee.
+114,Randy Orton,"August 18, 2013",SummerSlam,"Los Angeles, CA",7,28,28,Cashed in his Money in the Bank contract. Triple H was the guest referee.
+115,Daniel Bryan,"September 15, 2013",Night of Champions,"Detroit, MI",2,1,1,
+—,Vacated,"September 16, 2013",Raw,"Cleveland, OH",—,—,—,The title was vacated after a controversial finish when Daniel Bryan defeated Randy Orton to win the title.
+116,Randy Orton,"October 27, 2013",Hell in a Cell,"Miami, FL",8,161,161,"Orton defeated Daniel Bryan in a Hell in a Cell match to win the vacant title with Shawn Michaels as the guest referee.
+On December 15, 2013 at TLC: Tables, Ladders & Chairs, Orton defeated John Cena in a Tables, Ladders and Chairs match to unify the World Heavyweight Championship with the WWE Championship. The World Heavyweight Championship was then retired and the WWE Championship became known as the WWE World Heavyweight Championship."
+117,Daniel Bryan,"April 6, 2014",WrestleMania XXX,"New Orleans, LA",3,64,65,"This was a triple threat match also involving Batista, whom Bryan forced to submit to win the match."
+—,Vacated,"June 9, 2014",Raw,"Minneapolis, MN",—,—,—,Daniel Bryan was stripped of the title due to a neck injury.
+118,John Cena,"June 29, 2014",Money in the Bank,"Boston, MA",12,49,49,"This was an eight-way ladder match for the vacant title also involving Alberto Del Rio, Bray Wyatt, Cesaro, Kane, Randy Orton, Roman Reigns, and Sheamus."
+119,Brock Lesnar,"August 17, 2014",SummerSlam,"Los Angeles, CA",4,224,224,
+120,Seth Rollins,"March 29, 2015",WrestleMania 31,"Santa Clara, CA",1,221,220,"Cashed in his Money in the Bank contract during a singles match between Brock Lesnar and Roman Reigns, converting it into a triple threat match and subsequently pinned Reigns to win the match.
+WWE recognizes Rollins' reign as ending on November 4, 2015, the date he got injured, rather than the date in which the title was officially vacated."
+—,Vacated,"November 5, 2015",—,—,—,—,—,"The title was vacated after Seth Rollins suffered a torn ACL, MCL, and a damaged meniscus at a live event in Dublin, Ireland."
+121,Roman Reigns,"November 22, 2015",Survivor Series,"Atlanta, GA",1,<1,<1,Defeated Dean Ambrose in a tournament final to win the vacant title.
+122,Sheamus,"November 22, 2015",Survivor Series,"Atlanta, GA",3,22,22,Cashed in his Money in the Bank contract.
+123,Roman Reigns,"December 14, 2015",Raw,"Philadelphia, PA",2,41,41,This was a title vs. career match.
+124,Triple H,"January 24, 2016",Royal Rumble,"Orlando, FL",9,70,70,This was the Royal Rumble match in which Roman Reigns defended the title and entered at number one. Triple H eliminated Reigns before lastly eliminating Dean Ambrose to win the title.
+125,Roman Reigns,"April 3, 2016",WrestleMania 32,"Arlington, TX",3,77,77,
+126,Seth Rollins,"June 19, 2016",Money in the Bank,"Las Vegas, NV",2,<1,<1,
+127,Dean Ambrose,"June 19, 2016",Money in the Bank,"Las Vegas, NV",1,84,84,Cashed in his Money in the Bank contract and the title's name reverted to WWE Championship. The brand extension returned and the title became exclusive to the SmackDown brand following the 2016 WWE Draft. The WWE Universal Championship was created for the Raw brand; the WWE Championship was then renamed to WWE World Championship.
+128,AJ Styles,"September 11, 2016",Backlash,"Richmond, VA",1,140,140,"In December 2016, the title's name reverted to WWE Championship.[8]"
+129,John Cena,"January 29, 2017",Royal Rumble,"San Antonio, TX",13,14,14,
+130,Bray Wyatt,"February 12, 2017",Elimination Chamber,"Phoenix, AZ",1,49,49,"This was an Elimination Chamber match also involving AJ Styles, Baron Corbin, Dean Ambrose, and The Miz."
+131,Randy Orton,"April 2, 2017",WrestleMania 33,"Orlando, FL",9,49,49,
+132,Jinder Mahal,"May 21, 2017",Backlash,"Rosemont, IL",1,170,170,
+133,AJ Styles,"November 7, 2017",SmackDown,"Manchester, England",2,371,371,
+134,Daniel Bryan,"November 13, 2018",SmackDown,"St. Louis, MO",4,145,144,
+135,Kofi Kingston,"April 7, 2019",WrestleMania 35,"East Rutherford, NJ",1,180,180,
+136,Brock Lesnar,"October 4, 2019",SmackDown's 20th Anniversary,"Los Angeles, CA",5,173,184,"On the November 1, 2019 episode of SmackDown, Lesnar quit SmackDown and went to Raw, taking the title with him.
+WWE recognizes this reign as ending on April 5, 2020, when the match aired on tape delay."
+137,Drew McIntyre,"March 25, 2020","WrestleMania 36
+Part 2","Orlando, FL",1,214,203,"WrestleMania was taped on March 25 and 26,[192] but McIntyre confirmed in his memoir, A Chosen Destiny: My Story, that the WWE Championship match was taped on March 25.[193]
+WWE recognizes this reign as beginning on April 5, 2020, when the match aired on tape delay."
+138,Randy Orton,"October 25, 2020",Hell in a Cell,"Orlando, FL",10,22,22,This was a Hell in a Cell match.
+139,Drew McIntyre,"November 16, 2020",Raw,"Orlando, FL",2,97,97,This was a no disqualification and no countout match.
+140,The Miz,"February 21, 2021",Elimination Chamber,"St. Petersburg, FL",2,8,8,Cashed in his Money in the Bank contract.
+141,Bobby Lashley,"March 1, 2021",Raw,"St. Petersburg, FL",1,196,196,This was a lumberjack match.
+142,Big E,"September 13, 2021",Raw,"Boston, MA",1,19+,19+,"Cashed in his Money in the Bank contract.
+Big E transferred from SmackDown to Raw upon winning the title."

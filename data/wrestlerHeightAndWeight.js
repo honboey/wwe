@@ -2796,12 +2796,12 @@ module.exports.wrestlerHeightAndWeight =
             weight:240
         }, 
         {
-            name:"Ted DiBiase, Jr.",
+            name:"Ted DiBiase Jr",
             height:[6,3],
             weight:235
         }, 
         {
-            name:"Ted DiBiase, Sr.",
+            name:"Ted DiBiase Sr",
             height:[6,3],
             weight:260
         }, 
@@ -3086,7 +3086,7 @@ module.exports.wrestlerHeightAndWeight =
             weight:214
         }, 
         {
-            name:"Zack Sabre Jr.",
+            name:"Zack Sabre Jr",
             height:[6,0],
             weight:181
         }, 

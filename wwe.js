@@ -26,7 +26,7 @@ function undefinedValues(array1, array2) {
     })    
 }
 
-// undefinedValues(wweChampions, wrestlerStats)
+undefinedValues(wweChampions, wrestlerStats)
 
 /*
 String Array -> Boolean
@@ -117,7 +117,7 @@ function pullOutWweChampionsStats(array1, array2) {
 }
 
 const wweChampionsStats = pullOutWweChampionsStats(wweChampions, wrestlerStats)
-console.log(wweChampionsStats)
+// console.log(wweChampionsStats)
 
 /*
 String Array -> object
