@@ -26,7 +26,7 @@ function undefinedValues(array1, array2) {
     })    
 }
 
-undefinedValues(wweChampions, wrestlerStats)
+// undefinedValues(wweChampions, wrestlerStats)
 
 /*
 String Array -> Boolean
@@ -74,57 +74,24 @@ wrestlerStats = heightInInches(wrestlerStats)
 // Creating the list
 // =======================
 
-/* 
-Array Array -> Array
-Go through each element in an array and pull out the corresponding object in another array
-
-check-expect    wweChampionsStats([{ name: "John Cena" }],
-                                  [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
-                                   { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
-                                   { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
-                                   { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
-                
-                -> [{ name :"John Cena","height":"6’1″","weight":"251 lbs." }]
-
-check-expect    wweChampionsStats([{ name: "John Cena" }, 
-                                    { name: "2 Cold Scorpio" }],
-                                  [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
-                                   { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
-                                   { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
-                                   { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
-                
-                -> [{ name :"John Cena","height":"6’1″","weight":"251 lbs." },
-                    { name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }]
-
-check-expect    wweChampionsStats([{ name: "John Cena" }, 
-                                   { name: "2 Cold Scorpio" }, 
-                                   { name:"John Cena" }],
-                                  [{ name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." }, 
-                                   { name :"Abbey Laith","height":"5’4″","weight":"125 lbs." }, 
-                                   { name :"Abdullah the Butcher","height":"6’0″","weight":"360 lbs." },
-                                   { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
-                
-                -> [{ name :"John Cena","height":"6’1″","weight":"251 lbs." },
-                    { name :"2 Cold Scorpio","height":"5’11”","weight":"229 lbs." },
-                    { name :"John Cena","height":"6’1″","weight":"251 lbs." }]    
-            
-*/
-
-function pullOutWweChampionsStats(array1, array2) {
+// Array Array -> Array
+// Input 2 arrays and output an array of the combined matching objects
+// check-expect mergeArrays([{a:"Hon", b:2, c:3}, {a:"Hannah", b:2, c:3}], [{a:"Xav", d:4}, {a:"Ang", d:4}, {a:"Hon", d:4}, {a:"Hannah", d:4}])
+function mergeArrays(array1, array2) {
+    // Get the element, find the corresponding object then merge
     return array1.map((element) => {
-        return pullOutWrestlerStat(element.name, array2)
+        return Object.assign(element, pullOutWrestlerStat(element.name, array2))  
     })
 }
 
-const wweChampionsStats = pullOutWweChampionsStats(wweChampions, wrestlerStats)
-// console.log(wweChampionsStats)
+console.log(mergeArrays(wweChampions, wrestlerStats))
 
 /*
 String Array -> object
 check-expect    pullOutWrestlerStat("John Cena", wrestlerStats) -> 
                 { name :"John Cena","height":"6’1″","weight":"251 lbs." }
 */
-function pullOutWrestlerStat(wrestler, array) {
+function pullOutWrestlerStat(wrestlßer, array) {
     return array.find(element => element.name === wrestler )
 }
 
