@@ -95,7 +95,25 @@ function pullOutWrestlerStat(wrestler, array) {
 // Drawing out the info
 // =======================
 
-// Array String -> Array
-// Create an array of values of a given key
-// check-expect createArrayofValues([{a:"Hon", b:2, c:3}, {a:"Hannah", b:2, c:3}], "a")
-//              -> ["Hon", "Hannah"]
+// Array -> Array
+// Create an array of all weight values
+function createArrayOfWeights(array) {
+    return array.map(element => element.weight).filter(Number)
+}
+let arrayOfWeights = createArrayOfWeights(wweChampionsStats)
+
+// Array -> Number 
+// Find total sum of an array of numbers
+function findTotalSum(array) {
+    return array.reduce((pV, cV) => {
+        return pV + cV
+    }) 
+}
+
+// Array -> Number
+// Find average of an array of numbers
+function findAverage(array) {
+    return findTotalSum(array) / array.length
+}
+console.log(findAverage(arrayOfWeights))
+console.log(wweChampionsStats)
