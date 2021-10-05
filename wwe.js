@@ -44,14 +44,6 @@ function exist(string, array) {
     }
 }
 
-// Array -> Number
-// Change height value to inches
-// check-expect convertToInches([5,10]) -> (5*12 + 10)
-// check-expect convertToInches([5,0])  -> (5*12 + 0)
-function convertToInches(array) {
-    return array[0] * 12 + array[1]
-}
-
 // =======================
 
 // Array -> Array
@@ -66,6 +58,14 @@ function heightInInches(array) {
     return array.map(element => ({ ...element, height: convertToInches(element.height) }));
 }
 wrestlerStats = heightInInches(wrestlerStats)
+
+// Array -> Number
+// Change height value to inches
+// check-expect convertToInches([5,10]) -> (5*12 + 10)
+// check-expect convertToInches([5,0])  -> (5*12 + 0)
+function convertToInches(array) {
+    return array[0] * 12 + array[1]
+}
 
 
 // =======================
