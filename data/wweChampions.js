@@ -965,7 +965,7 @@ module.exports.wweChampions = [
         "reign":1,
         "days":22,
         "days recognised":22,
-        "notes":"Cashed in his Money in the Bank contract. This was an Extreme Rules match.\n The title became property of the new ECW brand due to Van Dam's status as an ECW wrestler. The ECW World Heavyweight Championship was subsequently reactivated for the brand and awarded to Van Dam, who became the only wrestler to ever hold both titles at the same time. The ECW Championship became a third concurrently active world championship in WWE."
+        "notes":"Cashed in his Money in the Bank contract. This was an Extreme Rules match. The title became property of the new ECW brand due to Van Dam's status as an ECW wrestler. The ECW World Heavyweight Championship was subsequently reactivated for the brand and awarded to Van Dam, who became the only wrestler to ever hold both titles at the same time. The ECW Championship became a third concurrently active world championship in WWE."
     },
     {
         "number":80,
@@ -976,7 +976,7 @@ module.exports.wweChampions = [
         "reign":2,
         "days":76,
         "days recognised":76,
-        "notes":"This was a triple threat match also involving John Cena.\nThe title became exclusive to the Raw brand due to Edge's status as a Raw wrestler."
+        "notes":"This was a triple threat match also involving John Cena.The title became exclusive to the Raw brand due to Edge's status as a Raw wrestler."
     },
     {
         "number":81,
@@ -987,7 +987,7 @@ module.exports.wweChampions = [
         "reign":3,
         "days":380,
         "days recognised":380,
-        "notes":"This was a Tables, Ladders and Chairs match.\nHad Cena lost, he would have had to leave the Raw brand."
+        "notes":"This was a Tables, Ladders and Chairs match.Had Cena lost, he would have had to leave the Raw brand."
     },
     {
         "number":82,
@@ -1031,7 +1031,7 @@ module.exports.wweChampions = [
         "reign":7,
         "days":210,
         "days recognised":210,
-        "notes":"This was a fatal four-way elimination match also involving John Cena and John \"Bradshaw\" Layfield.\nThe title became exclusive to the SmackDown brand following the 2008 WWE Draft."
+        "notes":"This was a fatal four-way elimination match also involving John Cena and John \"Bradshaw\" Layfield.The title became exclusive to the SmackDown brand following the 2008 WWE Draft."
     },
     {
         "number":86,
@@ -1130,7 +1130,7 @@ module.exports.wweChampions = [
         "reign":4,
         "days":21,
         "days recognised":21,
-        "notes":"This was an \"I quit\" match.\nHad anyone interfered on Randy Orton's behalf, he would have forfeited the title."
+        "notes":"This was an \"I quit\" match.Had anyone interfered on Randy Orton's behalf, he would have forfeited the title."
     },
     {
         "number":94,
@@ -1152,7 +1152,7 @@ module.exports.wweChampions = [
         "reign":5,
         "days":49,
         "days recognised":49,
-        "notes":"This was a 60-minute Anything Goes Iron Man match in which Cena won 6-5.\nHad Cena lost, he would have had to leave the Raw brand."
+        "notes":"This was a 60-minute Anything Goes Iron Man match in which Cena won 6-5.Had Cena lost, he would have had to leave the Raw brand."
     },
     {
         "number":96,
@@ -1262,7 +1262,7 @@ module.exports.wweChampions = [
         "reign":"—",
         "days":"—",
         "days recognised":"—",
-        "notes":"The title was vacated due to CM Punk leaving WWE.\nThis vacancy is no longer recognized due to Punk's return on the July 25, 2011 episode of Raw."
+        "notes":"The title was vacated due to CM Punk leaving WWE.This vacancy is no longer recognized due to Punk's return on the July 25, 2011 episode of Raw."
     },
     {
         "number":105,
@@ -1273,7 +1273,7 @@ module.exports.wweChampions = [
         "reign":1,
         "days":"<1",
         "days recognised":"<1",
-        "notes":"Defeated The Miz in a tournament final to crown a new champion.\nCM Punk was also recognized as WWE Champion."
+        "notes":"Defeated The Miz in a tournament final to crown a new champion.CM Punk was also recognized as WWE Champion."
     },
     {
         "number":106,
@@ -1306,7 +1306,7 @@ module.exports.wweChampions = [
         "reign":1,
         "days":35,
         "days recognised":35,
-        "notes":"Cashed in his Money in the Bank contract after CM Punk defeated John Cena to determine the undisputed champion.\nOn August 29, 2011, the first brand extension ended, allowing the WWE Champion to appear on both Raw and SmackDown."
+        "notes":"Cashed in his Money in the Bank contract after CM Punk defeated John Cena to determine the undisputed champion.On August 29, 2011, the first brand extension ended, allowing the WWE Champion to appear on both Raw and SmackDown."
     },
     {
         "number":108,
@@ -1416,7 +1416,7 @@ module.exports.wweChampions = [
         "reign":8,
         "days":161,
         "days recognised":161,
-        "notes":"Orton defeated Daniel Bryan in a Hell in a Cell match to win the vacant title with Shawn Michaels as the guest referee.\nOn December 15, 2013 at TLC: Tables, Ladders & Chairs, Orton defeated John Cena in a Tables, Ladders and Chairs match to unify the World Heavyweight Championship with the WWE Championship. The World Heavyweight Championship was then retired and the WWE Championship became known as the WWE World Heavyweight Championship."
+        "notes":"Orton defeated Daniel Bryan in a Hell in a Cell match to win the vacant title with Shawn Michaels as the guest referee.On December 15, 2013 at TLC: Tables, Ladders & Chairs, Orton defeated John Cena in a Tables, Ladders and Chairs match to unify the World Heavyweight Championship with the WWE Championship. The World Heavyweight Championship was then retired and the WWE Championship became known as the WWE World Heavyweight Championship."
     },
     {
         "number":117,
@@ -1471,7 +1471,7 @@ module.exports.wweChampions = [
         "reign":1,
         "days":221,
         "days recognised":220,
-        "notes":"Cashed in his Money in the Bank contract during a singles match between Brock Lesnar and Roman Reigns, converting it into a triple threat match and subsequently pinned Reigns to win the match.\nWWE recognizes Rollins' reign as ending on November 4, 2015, the date he got injured, rather than the date in which the title was officially vacated."
+        "notes":"Cashed in his Money in the Bank contract during a singles match between Brock Lesnar and Roman Reigns, converting it into a triple threat match and subsequently pinned Reigns to win the match.WWE recognizes Rollins' reign as ending on November 4, 2015, the date he got injured, rather than the date in which the title was officially vacated."
     },
     {
         "number":"—",
@@ -1658,18 +1658,18 @@ module.exports.wweChampions = [
         "reign":5,
         "days":173,
         "days recognised":184,
-        "notes":"On the November 1, 2019 episode of SmackDown, Lesnar quit SmackDown and went to Raw, taking the title with him.\nWWE recognizes this reign as ending on April 5, 2020, when the match aired on tape delay."
+        "notes":"On the November 1, 2019 episode of SmackDown, Lesnar quit SmackDown and went to Raw, taking the title with him.WWE recognizes this reign as ending on April 5, 2020, when the match aired on tape delay."
     },
     {
         "number":137,
         "name":"Drew McIntyre",
         "date":"March 25, 2020",
-        "event":"WrestleMania 36\nPart 2",
+        "event":"WrestleMania 36Part 2",
         "location":"Orlando, FL",
         "reign":1,
         "days":214,
         "days recognised":203,
-        "notes":"WrestleMania was taped on March 25 and 26,[192] but McIntyre confirmed in his memoir, A Chosen Destiny: My Story, that the WWE Championship match was taped on March 25.[193]\nWWE recognizes this reign as beginning on April 5, 2020, when the match aired on tape delay."
+        "notes":"WrestleMania was taped on March 25 and 26,[192] but McIntyre confirmed in his memoir, A Chosen Destiny: My Story, that the WWE Championship match was taped on March 25.[193] WWE recognizes this reign as beginning on April 5, 2020, when the match aired on tape delay."
     },
     {
         "number":138,

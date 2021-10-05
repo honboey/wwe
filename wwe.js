@@ -77,15 +77,16 @@ wrestlerStats = heightInInches(wrestlerStats)
 // Array Array -> Array
 // Input 2 arrays and output an array of the combined matching objects
 // check-expect mergeArrays([{a:"Hon", b:2, c:3}, {a:"Hannah", b:2, c:3}], [{a:"Xav", d:4}, {a:"Ang", d:4}, {a:"Hon", d:4}, {a:"Hannah", d:4}])
+//              -> [{a:"Hon", b:2, c:3, d:4}, {a:"Hannah", b:2, c:3, d:4}]
 function mergeArrays(array1, array2) {
     // Get the element, find the corresponding object then merge
-    return array1.map((element) => {
+    return array1.map(element => {
         return Object.assign(element, pullOutWrestlerStat(element.name, array2))  
     })
 }
 
 let wweChampionsStats = mergeArrays(wweChampions, wrestlerStats)
-console.log(wweChampionsStats)
+// console.log(wweChampionsStats)
 
 
 // String Array -> object
@@ -98,3 +99,8 @@ function pullOutWrestlerStat(wrestler, array) {
 // =======================
 // Drawing out the info
 // =======================
+
+// Array String -> Array
+// Create an array of values of a given key
+// check-expect createArrayofValues([{a:"Hon", b:2, c:3}, {a:"Hannah", b:2, c:3}], "a")
+//              -> ["Hon", "Hannah"]
