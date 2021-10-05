@@ -84,14 +84,14 @@ function mergeArrays(array1, array2) {
     })
 }
 
-console.log(mergeArrays(wweChampions, wrestlerStats))
+let wweChampionsStats = mergeArrays(wweChampions, wrestlerStats)
+console.log(wweChampionsStats)
 
-/*
-String Array -> object
-check-expect    pullOutWrestlerStat("John Cena", wrestlerStats) -> 
-                { name :"John Cena","height":"6’1″","weight":"251 lbs." }
-*/
-function pullOutWrestlerStat(wrestlßer, array) {
+
+// String Array -> object
+// check-expect    pullOutWrestlerStat("John Cena", wrestlerStats) -> 
+//                 { name :"John Cena","height":"6’1″","weight":"251 lbs." }
+function pullOutWrestlerStat(wrestler, array) {
     return array.find(element => element.name === wrestler )
 }
 
