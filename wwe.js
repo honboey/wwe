@@ -15,7 +15,6 @@ check-expect    undefinedValues([{ name: "John Cena"}, {name: "Hon Boey"}],
                                  { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
                 -> { name: "Hon Boey" }                  
 */
-
 function undefinedValues(array1, array2) {
     array1.map((element) => {
         if (exist(element.name, array2)) {
@@ -37,7 +36,6 @@ check-expect    exist("Hon Boey", [{ name :"2 Cold Scorpio","height":"5’11”"
                                    { name :"John Cena","height":"6’1″","weight":"251 lbs." }])
                 -> false
 */
-
 function exist(string, array) {
     if ((array.filter(element => element.name === string).length === 0)) {
         return false
@@ -84,10 +82,7 @@ function mergeArrays(array1, array2) {
         return Object.assign(element, pullOutWrestlerStat(element.name, array2))  
     })
 }
-
 let wweChampionsStats = mergeArrays(wweChampions, wrestlerStats)
-// console.log(wweChampionsStats)
-
 
 // String Array -> object
 // check-expect    pullOutWrestlerStat("John Cena", wrestlerStats) -> 
