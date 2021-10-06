@@ -116,4 +116,4 @@ function findAverage(array) {
     return findTotalSum(array) / array.length
 }
 console.log(findAverage(arrayOfWeights))
-console.log(wweChampionsStats)
+console.dir(wweChampionsStats, {'maxArrayLength': null})
