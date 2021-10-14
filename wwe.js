@@ -1,5 +1,8 @@
+
 wweChampions = require("./data/wweChampions.js").wweChampions
 wrestlerStats = require("./data/wrestlerHeightAndWeight.js").wrestlerHeightAndWeight
+wrestlerDob = require("./data/wrestlerDob.js").wrestlerDob
+
 
 // =======================
 // Cleaning the data
@@ -25,7 +28,7 @@ function undefinedValues(array1, array2) {
     })    
 }
 
-// undefinedValues(wweChampions, wrestlerStats)
+// undefinedValues(wweChampions, wrestlerDob)
 
 /*
 String Array -> Boolean
@@ -43,6 +46,16 @@ function exist(string, array) {
         return true
     }
 }
+
+// Format date in wrestlerDob
+wrestlerDob = wrestlerDob.map(element => {
+    return {
+        name: element.name,
+        dob: new Date(element.day + " " + element.year)
+    }
+})
+
+console.dir(wrestlerDob,{'maxArrayLength': null})
 
 // =======================
 
@@ -115,5 +128,5 @@ function findTotalSum(array) {
 function findAverage(array) {
     return findTotalSum(array) / array.length
 }
-console.log(findAverage(arrayOfWeights))
-console.dir(wweChampionsStats, {'maxArrayLength': null})
+// console.log(findAverage(arrayOfWeights))
+// console.dir(wweChampionsStats, {'maxArrayLength': null})
