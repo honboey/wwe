@@ -2,7 +2,7 @@
 
 ## About the project
 
-This is a data visualisation project using the statistics of all the past and current WWE Championship title holders.
+This is a data visualisation project using the statistics of all the past and current WWE Championship title holders. The final product can be read on its [dedicated Observable page](https://observablehq.com/@honboey/wwe).
 
 The data from this project comes from:
 * Wikipedia's [List of WWE Champions](https://en.m.wikipedia.org/wiki/List_of_WWE_Champions)
